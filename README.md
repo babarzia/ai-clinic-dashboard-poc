@@ -16,9 +16,32 @@ This is a full-stack AI-powered dashboard for a dental clinic, featuring secure 
 
 ## 📁 Project Structure
 
-<pre> ## 📁 Project Structure ``` ai-patient-dashboard/ │ ├── backend/ # FastAPI backend │ ├── app/ │ │ ├── main.py # Main FastAPI app │ │ ├── auth.py # JWT Auth logic │ │ ├── chatbot.py # AI dummy response │ │ ├── database.py # DB setup and session │ │ └── models.py # Pydantic and ORM models │ ├── Dockerfile # Backend Dockerfile │ └── requirements.txt │ ├── frontend/ # React frontend │ ├── public/ │ ├── src/ │ │ ├── components/ # Chatbot & PatientForm │ │ ├── App.js │ │ └── index.js │ ├── tailwind.config.js │ ├── Dockerfile # Frontend Dockerfile │ └── package.json │ ├── docker-compose.yml # Full stack orchestration └── README.md ``` </pre>
-
----
+```
+ai-patient-dashboard/
+│
+├── backend/                  # FastAPI backend
+│   ├── app/
+│   │   ├── main.py           # Main FastAPI app
+│   │   ├── auth.py           # JWT Auth logic
+│   │   ├── chatbot.py        # AI dummy response
+│   │   ├── database.py       # DB setup and session
+│   │   └── models.py         # Pydantic and ORM models
+│   ├── Dockerfile            # Backend Dockerfile
+│   └── requirements.txt
+│
+├── frontend/                 # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/       # Chatbot & PatientForm
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── tailwind.config.js
+│   ├── Dockerfile            # Frontend Dockerfile
+│   └── package.json
+│
+├── docker-compose.yml        # Full stack orchestration
+└── README.md
+```
 
 ## 🔐 Authentication
 
