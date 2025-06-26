@@ -6,7 +6,7 @@ This is a full-stack AI-powered dashboard for a dental clinic, featuring secure 
 
 ## 📦 Tech Stack
 
-- **Backend**: FastAPI, SQLAlchemy, JWT Auth, PostgreSQL
+- **Backend**: FastAPI, JWT Auth, PostgreSQL
 - **Frontend**: React.js, TailwindCSS
 - **Chatbot**: Dummy AI integration (can be extended to OpenAI or similar)
 - **Auth**: JWT-based via `/token` endpoint
